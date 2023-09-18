@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.nav
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 3.3%;
+    padding-right: 4%;
+    padding-top: 2.3%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.header
+{
+    padding-right: 140px;
+}
+.header h1
+{
+    font-family: 'Times Roman';
+    font-size: 2rem;
+    line-height: 10px;
+    letter-spacing: -1px;
+    color: rgb(29, 29, 29);
+}
+.links
+{
+    padding-right: 140px;
+}
+.links .link
+{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    padding-right: 1.7rem;
+    font-family: 'Times Roman';
+    font-weight: bolder;
+    font-size: 1.25rem;
+    letter-spacing: -1px;
+}
+.icons i
+{
+    padding-left: 2.1rem;
+    color: rgb(29, 29, 29);
+}

@@ -1,0 +1,66 @@
+.home
+{
+    height: 140vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url('https://c0.wallpaperflare.com/preview/489/682/388/plant-cake-food-dessert.jpg');
+    background-position: inherit;
+    background-size: cover;
+    z-index: 1;
+    margin: -8px;
+    opacity: 0.9;
+}
+
+.home h1
+{
+    font-size: 3.8rem;
+    letter-spacing: -1px;
+    padding-top: 20.5%;
+    color: rgb(0, 0, 0);
+}
+
+.low-section
+{
+    height: 128vh;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.card img
+{
+    width: 410px;
+    height: 410px;
+    object-fit: cover;
+    opacity: 0.9;
+}
+.card p
+{
+    text-align: center;
+    font-size: 19px;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.9rem;
+}
+
+.btn button
+{
+    display: inline-block;
+    padding: 18px 56px;
+    background-color: #d1d3e7;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
