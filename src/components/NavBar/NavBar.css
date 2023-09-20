@@ -17,6 +17,10 @@
 {
     padding-right: 140px;
 }
+.h1
+{
+    text-decoration: none;
+}
 .header h1
 {
     font-family: 'Times Roman';

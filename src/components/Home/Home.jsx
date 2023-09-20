@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import NavBar from '../NavBar/NavBar'
 import './Home.css'
 
 const Home = () => {
   return (
     <>
+    <NavBar />
     <div className='home'>
       <h1 className="animate__animated animate__fadeIn">Discover Your Cake Dreams</h1>
     </div>
@@ -23,7 +26,9 @@ const Home = () => {
         </div>
       </div>
       <div className='btn'>
+      <Link to={'/order'}>
         <button>Get In Touch</button>
+      </Link>
       </div>
     </div>
     </>

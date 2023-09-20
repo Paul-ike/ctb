@@ -1,0 +1,95 @@
+.process-section
+{
+    margin: -8px;
+}
+.process
+{
+    height: 220vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url('https://c0.wallpaperflare.com/preview/489/682/388/plant-cake-food-dessert.jpg');
+    background-position: inherit;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.9;
+    padding-top: 11.5%;
+}
+.process hr
+{
+    width: 930px;
+    border: none;
+    border-top: 1px solid black;
+    margin-top: -13px;
+}
+.process-cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+.process-card
+{
+    background-color: rgb(231, 230, 230);
+    margin-bottom: 3.7%;
+    color: black;
+    width: 890px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.process-card h4
+{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.process-card p
+{
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+.button button
+{
+    display: inline-block;
+    padding: 15px 45px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button button:hover {
+    background-color: #000000;
+    color: white;
+  }
+.next
+{
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    align-items: center;
+    padding: 1.2%;
+}
+.next h1
+{
+    padding-right: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2.2rem;
+}
+.next i
+{
+    padding-right: 3.2%;
+}
+
+.next .stu
+{
+    text-decoration: none;
+    color: white;
+}

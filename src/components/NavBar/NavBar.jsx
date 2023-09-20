@@ -6,11 +6,13 @@ const NavBar = () => {
   return (
     <div className='nav'>
       <div className='header'>
-        <h1 className="animate__animated animate__fadeInLeftBig">Cakes By Jack</h1>
+        <Link className='h1' to={'/'}>
+          <h1 className="animate__animated animate__fadeInLeftBig">Cakes By Jack</h1>
+        </Link>
       </div>
       <div className='links animate__animated animate__fadeInDownBig'>
         <Link className='link' to={'/'}>Home</Link>
-        <Link className='link' to={'/cakes'}>Cakes</Link>
+        <Link className='link' to={'/home/weddings'}>Cakes</Link>
         <Link className='link' to={'/pricing'}>Pricing</Link>
         <Link className='link' to={'/order'}>Order</Link>
         <Link className='link' to={'/online'}>Online</Link>
@@ -18,8 +20,8 @@ const NavBar = () => {
         <Link className='link' to={'/t&c'}>Terms and Conditions</Link>
       </div>
       <div className='icons'>
-        <i className="fa-brands fa-instagram fa-lg animate__animated animate__fadeInRightBig"></i>
-        <i className="fa-brands fa-facebook-f fa-lg animate__animated animate__fadeInRightBig"></i>
+        <a href='https://www.instagram.com/tabbz_the_baker/'><i className="fa-brands fa-instagram fa-lg animate__animated animate__fadeInRightBig"></i></a>
+        <a href='https://www.facebook.com/people/tabbz_the_baker/100063595178186/'><i className="fa-brands fa-facebook-f fa-lg animate__animated animate__fadeInRightBig"></i></a>
       </div>
     </div>
   )
