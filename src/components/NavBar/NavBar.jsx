@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className='links animate__animated animate__fadeInDownBig'>
         <Link className='link' to={'/'}>Home</Link>
         <Link className='link' to={'/home/weddings'}>Cakes</Link>
-        <Link className='link' to={'/pricing'}>Pricing</Link>
+        <Link className='link' to={'/home/studio'}>Pricing</Link>
         <Link className='link' to={'/order'}>Order</Link>
         <Link className='link' to={'/online'}>Online</Link>
         <Link className='link' to={'/gallery'}>Gallery</Link>

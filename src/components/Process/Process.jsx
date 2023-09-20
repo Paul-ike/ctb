@@ -8,9 +8,9 @@ const Process = () => {
     <div className='process-section'>
         <NavBar />
         <div className='process'>
-            <h1>Our Process</h1>
-            <hr />
-            <div className='process-cards'>
+            <h1 className='animate__animated animate__fadeInUpBig'>Our Process</h1>
+            <hr className='animate__animated animate__fadeInUpBig' />
+            <div className='process-cards animate__animated animate__fadeInUpBig'>
                 <div className='process-card'>
                     <h4>Step 1 - Get in touch</h4>
                     <p>Get in touch via  our contact form below - tell us all about your wedding and all about your style! we want to know as much as possible that will help us create the perfect piece to match your event. If you are not sure what you would like, we are more than happy to set up a phone call/meeting to discuss your cake. We recommend getting in touch at least 6 months prior to your wedding day, however the earlier the better.</p>
