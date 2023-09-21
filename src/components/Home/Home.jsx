@@ -8,7 +8,7 @@ const Home = () => {
     <>
     <NavBar />
     <div className='home'>
-      <h1 className="animate__animated animate__fadeIn">Discover Your Cake Dreams</h1>
+      <h1 className="animate__animated animate__fadeInUp">Discover Your Cake Dreams</h1>
     </div>
     <div className='low-section'>
       <div className='cards'>

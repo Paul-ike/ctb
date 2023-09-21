@@ -1,0 +1,191 @@
+.order-header
+{
+    height: 125vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url('https://images.pexels.com/photos/1405494/pexels-photo-1405494.jpeg?cs=srgb&dl=pexels-rene-asmussen-1405494.jpg&fm=jpg');
+    background-position: inherit;
+    background-size: cover;
+    z-index: 1;
+    margin: -8px;
+    opacity: 0.9;
+}
+.order-header h1
+{
+    font-size: 3.8rem;
+    letter-spacing: -1px;
+    padding-top: 24.5%;
+}
+
+.low-section
+{
+    width: 50%;
+    padding-left: 3.5%;
+    padding-top: 2.8%;
+}
+.low-section .low-head
+{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.low-head h1
+{
+    font-size: 2.2rem;
+    font-weight: lighter;
+    padding-bottom: 1%;
+}
+.low-head p
+{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.low-section hr
+{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.2%;
+    margin-right: 6.5%;
+}
+form
+{
+    padding-top: 3%;
+}
+form label
+{
+    font-size: 1.1rem;
+    padding-bottom: 3%;
+}
+form .date
+{
+    font-size: 1.1rem;
+    margin-bottom: 1%;
+}
+form input
+{
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    width: 615px;
+    height: 40px;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: rgb(247, 247, 247);
+}
+form select
+{
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+    width: 625px;
+    height: 45px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 1%;
+    font-size: 1rem;
+    letter-spacing: -0.3px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(247, 247, 247);
+}
+form span
+{
+    color: gray;
+    font-size: 15px;
+}
+form .name
+{
+    display: flex;
+    padding-top: 2.5%;
+}
+form .name label
+{
+    font-size: 0.9rem;
+    padding-bottom: 2%;
+}
+form .name input
+{
+    margin-top: 2%;
+    width: 299px;
+    margin-bottom: 8%;
+}
+form .name .firstname
+{
+    padding-right: 1.5%;
+}
+form .eat-input
+{
+    width: 26%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1.1rem;
+}
+form .eat
+{
+    font-size: 1.1rem;
+    margin-top: -2%;
+}
+form .check
+{
+    margin-right: 1%;
+    margin-top: 0;
+    margin-left: 0;
+    width: 16px;
+    height: 16px;
+}
+
+form .checkbox
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+form textarea
+{
+    width: 615px;
+    height: 95px;
+    margin-bottom: 2%;
+    margin-top: 1.5%;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: rgb(247, 247, 247);
+}
+form .descr
+{
+    padding-top: 1%;
+    line-height: 20px;
+}
+form option
+{
+    font-size: 1rem;
+}
+form button
+{
+    margin-top: 1%;
+    padding: 18px 55px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form button:hover
+{
+    background-color: rgb(54, 54, 54);
+}
+.low-section .low-socials
+{
+    padding-bottom: 8%;
+}
+.low-section .low-socials h1
+{
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+.low-socials .link
+{
+    color: black;
+    font-size: 1.1rem;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.low-socials p
+{
+    font-size: 1.1rem;
+}
