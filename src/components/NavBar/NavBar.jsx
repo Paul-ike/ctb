@@ -15,7 +15,7 @@ const NavBar = () => {
         <Link className='link' to={'/home/weddings'}>Cakes</Link>
         <Link className='link' to={'/home/studio'}>Pricing</Link>
         <Link className='link' to={'/order'}>Order</Link>
-        <Link className='link' to={'/online'}>Online</Link>
+        <Link className='link' to={'/shop-online'}>Online</Link>
         <Link className='link' to={'/gallery'}>Gallery</Link>
         <Link className='link' to={'/t&c'}>Terms and Conditions</Link>
       </div>

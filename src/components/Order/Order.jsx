@@ -13,7 +13,7 @@ const Order = () => {
     <div className='low-section'>
         <div className='low-head'>
             <h1>Wedding & Event Cake Form</h1>
-            <p>Cake Design Begins At $500</p>
+            <p>Cake Design Begins At Ksh 3000</p>
         </div>
         <hr />
         <form>

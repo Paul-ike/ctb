@@ -18,11 +18,11 @@ const Terms = () => {
       <ol>
       <li>Any cancellations made prior to a 50% deposit will not incur a fee.</li>
       <li>All cancellations made after the 50% deposit and 60 days before your event will not receive a refund for the deposit.</li>
-      <li>All cancellations made after the 50% deposit are subject to a $100 administration fee</li>
+      <li>All cancellations made after the 50% deposit are subject to a Ksh 10000 administration fee</li>
       <li>All cancellations made with less than 7 days notice will forfeit the total cost of the cake.</li>
       <li>All Postponements must be made at least 3 weeks in advance. A postponement will only be made if the 50% deposit has been received. If the postponement cannot go ahead, the deposit will not be refunded. Postponements are valid for 1 year following the postponement date. If, due to unavailability we cannot accept your postponement date, the cancellation will be subject to our ordinary terms and conditions.</li>
       <li>In the event that the business must cancel an order, you will be refunded your payment amount.</li>
-      <li>Any cancellations that must be made due to an online order being placed with insufficient notice (Less than 2 weeks) will be charged a $25 admin fee.</li>
+      <li>Any cancellations that must be made due to an online order being placed with insufficient notice (Less than 2 weeks) will be charged a Ksh 2500 admin fee.</li>
       </ol>
       <h1>Refunds:</h1>
       <ol>

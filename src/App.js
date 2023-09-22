@@ -6,6 +6,7 @@ import Pricing from './components/Pricing/Pricing';
 import Order from './components/Order/Order';
 import Terms from './components/Terms/Terms';
 import Gallery from './components/Gallery/Gallery';
+import Online from './components/Online/Online';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/home/weddings" element={<Process />} />
           <Route path="/home/studio" element={<Pricing />} />
           <Route path="/order" element={<Order />} />
+          <Route path="/shop-online" element={<Online />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/t&c" element={<Terms />} />
         </Routes>

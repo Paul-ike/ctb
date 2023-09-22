@@ -16,7 +16,7 @@ const Pricing = () => {
           <div className='details'>
             <div className='detail'>
               <p>There are many details and factors that will affect the pricing of your wedding cake. This is why it is important to get in touch with us so we can discuss your personal style and needs. Certain elements such as fondant designs, fresh and handmade flowers, and cake toppers will affect the overall pricing. Pre designed cakes for smaller events can be found on our online store.</p>
-              <p>Pricing for cake design begins at $500</p>
+              <p>Pricing for cake design begins at Ksh 3000</p>
             </div>
           </div>
           <div className='btn'>
