@@ -1,0 +1,39 @@
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    grid-gap: 37px;
+    padding: 12% 48px 40px 48px;
+    /* padding-left: 3.5%; */
+    /* padding-right: 1.1%; */
+}
+.gallery .img-card img
+{
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+}
+.below-sect
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1.2%;
+}
+.below-sect h1
+{
+    padding-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2.2rem;
+}
+.below-sect i
+{
+    padding-left: 3.2%;
+}
+
+.below-sect .stu
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
