@@ -1,10 +1,10 @@
 .process-section
 {
-    margin: -8px;
+    max-width: 100%;
 }
 .process
 {
-    height: 220vh;
+    height: 100%;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -15,26 +15,39 @@
     opacity: 0.9;
     padding-top: 11.5%;
 }
+.process h1
+{
+    @media screen and (max-width:884px) {
+        padding-top: 10%;
+        font-size: 1.5rem;
+    }
+}
 .process hr
 {
-    width: 930px;
+    width: 69%;
     border: none;
     border-top: 1px solid black;
     margin-top: -13px;
+    @media screen and (max-width:884px) {
+        margin-top: 50px;
+    }
 }
 .process-cards
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1%;
+    padding: 1% 1% 20% 1%;
+    @media screen and (max-width:884px) {
+        padding-top: 5%;
+    }
 }
 .process-card
 {
     background-color: rgb(231, 230, 230);
     margin-bottom: 3.7%;
     color: black;
-    width: 890px;
+    width: 67%;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;

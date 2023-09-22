@@ -5,7 +5,7 @@ import NavBar from '../NavBar/NavBar'
 
 const Order = () => {
   return (
-    <>
+    <div className='order-sec'>
     <NavBar />
     <div className='order-header'>
         <h1  className="animate__animated animate__fadeInUp">Come Grab A Slice</h1>
@@ -82,7 +82,7 @@ const Order = () => {
             <p>tel: +254 705 673 353</p>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

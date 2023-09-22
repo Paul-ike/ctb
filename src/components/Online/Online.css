@@ -1,6 +1,7 @@
 .store
 {
     padding: 3.5% 3.5% 1% 3.5%;
+    max-width: 100%;
 }
 .store hr
 {
@@ -39,6 +40,9 @@
 {
     display: flex;
     padding-top: 2.5%;
+    @media screen and (max-width:420px) {
+        flex-direction: column;
+    }
 }
 
 .item-card img
@@ -46,6 +50,9 @@
     width: 390px;
     height: 400px;
     object-fit: cover;
+    @media screen and (max-width:429px) {
+        max-width: 100%;
+    }
 }
 .item-card p
 {

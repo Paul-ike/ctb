@@ -5,12 +5,12 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <>
+    <div className='home-sec'>
     <NavBar />
     <div className='home'>
       <h1 className="animate__animated animate__fadeInUp">Discover Your Cake Dreams</h1>
     </div>
-    <div className='low-section'>
+    {/* <div className='low-section'> */}
       <div className='cards'>
         <div className='card'>
           <img src='https://i.weddingomania.com/2013/09/a-stylish-white-wedding-cake-with-grey-drip-fresh-berries-fruits-and-leaves-and-blooms-is-ultimate-for-Halloween.jpg' alt='cake1'/>
@@ -25,13 +25,13 @@ const Home = () => {
           <p>Gallery</p>
         </div>
       </div>
-      <div className='btn'>
+    {/* </div> */}
+    <div className='btn'>
       <Link to={'/order'}>
         <button>Get In Touch</button>
       </Link>
       </div>
     </div>
-    </>
   )
 }
 

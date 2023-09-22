@@ -1,17 +1,41 @@
+.gal-sec
+{
+    max-width: 100%;
+}
 .gallery
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
-    grid-gap: 37px;
-    padding: 12% 48px 40px 48px;
-    /* padding-left: 3.5%; */
-    /* padding-right: 1.1%; */
+    grid-gap: 70px;
+    padding-top: 12%; 
+    padding-left: 2%;
+    max-width: 100%;
+    @media screen and (max-width:1280px) {
+        grid-gap: 90px;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    @media screen and (max-width:885px) {
+        grid-gap: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @media screen and (max-width:766px) {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
 }
 .gallery .img-card img
 {
     width: 600px;
     height: 800px;
+    max-width: 100%;
     object-fit: cover;
+    @media screen and (max-width:1200px) {
+        width: 500px;
+        height: 700px;
+    }
 }
 .below-sect
 {

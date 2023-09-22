@@ -5,7 +5,7 @@ import './Pricing.css'
 
 const Pricing = () => {
   return (
-    <div>
+    <div className='p-sec'>
         <NavBar />
         <div className='pricing-section'>
           <h1 className="animate__animated animate__fadeIn">Pricing</h1>
