@@ -9,9 +9,8 @@
     position: relative;
     overflow: hidden;
     background-image: url('https://c0.wallpaperflare.com/preview/489/682/388/plant-cake-food-dessert.jpg');
-    background-position: inherit;
+    background-position: center;
     background-size: cover;
-    z-index: 1;
     margin: -8px;
     opacity: 0.9;
     
